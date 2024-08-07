@@ -110,9 +110,14 @@ footer {
     text-align: center;
     padding: 10px 0;
     position: fixed;
-    width: 100%;
+    left: 0; /* Ensures the footer starts at the left edge */
+    right: 0; /* Ensures the footer ends at the right edge */
     bottom: 0;
+    margin: 0; /* Removes any default margins */
+    width: 100%;
+    box-sizing: border-box; /* Includes padding and border in the element's total width */
 }
+
 
 footer p {
     margin: 0;
