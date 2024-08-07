@@ -108,8 +108,15 @@ section h2 {
 }
 #projects{
 
- background: #b1d5a5;
+ background:#4169E1; 
     padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+#education{
+background:#9966CC;
+     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
