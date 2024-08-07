@@ -115,13 +115,15 @@ footer {
     text-align: center;
     padding: 10px 0;
     position: fixed;
-    left: 0; /* Ensures the footer starts at the left edge */
-    right: 0; /* Ensures the footer ends at the right edge */
+    left: 0;
+    right: 0;
     bottom: 0;
-    margin: 0; /* Removes any default margins */
-    width: 100%;
-    box-sizing: border-box; /* Includes padding and border in the element's total width */
+    width: 100vw; /* Ensure the footer uses the viewport width */
+    margin: 0;
+    box-sizing: border-box;
+    z-index: 1000; /* Ensure the footer is on top of other content */
 }
+
 
 
 footer p {
